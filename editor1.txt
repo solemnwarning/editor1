@@ -1,0 +1,5 @@
+A simple text editor implemented using slight abuse of conditionals.
+
+Run with no arguments for usage message, if terminal width/height isn't provided on the command line an 80x24 terminal is assumed. Ctrl+W writes the current file and Ctrl+E exits.
+
+BUG: Text is not always correctly displayed when the cursor is at the end of a line that is longer than the terminal width.
